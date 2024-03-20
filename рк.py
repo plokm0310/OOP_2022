@@ -39,6 +39,5 @@ def fnd(lst, K):
             print(" " * (3 - len(str(lst[i][j]))), lst[i][j], end = "")
         print()
 
-
 n, m, k = map(int, input().split())
 fnd(fill(n, m), k)
